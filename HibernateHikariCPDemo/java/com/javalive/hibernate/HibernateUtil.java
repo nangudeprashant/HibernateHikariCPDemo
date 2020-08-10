@@ -39,7 +39,7 @@ public class HibernateUtil {
 				settings.put(Environment.PASS, "root");
 				// settings.put(Environment.HBM2DDL_AUTO, "update");
 				settings.put(Environment.SHOW_SQL, true);
-
+	            settings.put(Environment.GENERATE_STATISTICS, true);
 				// HikariCP settings
 
 				// Maximum waiting time for a connection from the pool
